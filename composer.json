@@ -1,0 +1,22 @@
+{
+    "name": "bretterer/stormpath-social",
+    "description": "Social Login with Stormpath",
+    "type": "Project",
+    "require": {
+        "stormpath/sdk": "^1.16",
+        "vlucas/phpdotenv": "^2.4",
+        "symfony/http-foundation": "^3.1"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Brian Retterer",
+            "email": "brian@stormpath.com"
+        }
+    ]
+}
